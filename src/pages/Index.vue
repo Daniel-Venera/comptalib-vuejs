@@ -5,9 +5,9 @@
       <section class="hero">
         <div class="hero-body">
           <div class="hero-text">
-            <p class="title">
-              Lorem, ipsum dolor.
-            </p>
+            <h1 class="title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h1>
             <p class="subtitle">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, vitae!
             </p>
@@ -44,4 +44,5 @@ export default {
 </script>
 <style lang='scss' scoped>
 @import '../assets/scss/hero'; 
+@import '../assets/scss/title'; 
 </style>

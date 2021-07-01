@@ -1,6 +1,7 @@
-import { Navbar } from 'buefy'
+import { Navbar, Button } from 'buefy'
 import 'buefy/dist/buefy.css'
 Vue.use(Navbar)
+Vue.use(Button)
 import DefaultLayout from '~/layouts/Default.vue'
 import { faHeart} from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'

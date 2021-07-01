@@ -1,0 +1,27 @@
+.section {
+    &-body {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        &--left {
+            flex-direction: row-reverse;
+            .section-text {
+                padding-right: 0;
+            }
+            .section-imgCtn {
+                padding-right: 16px;
+            }
+        }
+    }
+    &-imgCtn {
+        flex: 0 0 50%;
+    }
+    &-img {
+        min-height: 400px;
+        background-size: cover !important;
+    }
+    &-text {
+        padding-right: 16px;
+        flex: 0 0 50%;
+    }
+}

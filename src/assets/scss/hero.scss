@@ -1,4 +1,6 @@
 .hero {
+    // max-width: 1200px;
+    // margin: auto;
     &-body {
         justify-content: center;
         flex-wrap: wrap;
@@ -6,12 +8,13 @@
         align-items: center;
     }
     &-text {
-        max-width: 400px;
+        max-width: 600px;
         margin-bottom: 24px;
         padding-right: 50px;
     }
     &-img {
         width: 100%;
         max-width: 500px;
+        margin-bottom: 24px;
     }
 }
