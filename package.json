@@ -1,0 +1,13 @@
+{
+  "name": "comptalib",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "buefy": "^0.9.8",
+    "gridsome": "^0.7.0"
+  }
+}
