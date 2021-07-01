@@ -8,6 +8,12 @@
   },
   "dependencies": {
     "buefy": "^0.9.8",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "lottie-vuejs": "^0.4.0",
+    "vue-lottie": "^0.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10"
   }
 }

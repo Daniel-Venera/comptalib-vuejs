@@ -2,28 +2,25 @@
   <div class="container">
     <b-navbar>
       <template #brand>
-          <b-navbar-item tag="router-link" :to="{ path: '/' }">
-              <img
-                  src="https://www.comptalib.com/assets/static/logo.11664c6.2590fb555161e2126dba6e2eabebf5aa.svg"
-                  alt="Lightweight UI components for Vue.js based on Bulma"
-              >
-          </b-navbar-item>
+        <b-navbar-item tag="router-link" :to="{ path: '/' }">
+          <img src="https://www.comptalib.com/assets/static/logo.11664c6.2590fb555161e2126dba6e2eabebf5aa.svg" alt="Comptalib logo">
+        </b-navbar-item>
       </template>
       <template #start>
+        <b-navbar-item tag="router-link" :to="{ path: '/' }" >
+          Home
+        </b-navbar-item>
+        <b-navbar-item href="#" >
+          Documentation
+        </b-navbar-item>
+        <b-navbar-dropdown label="Info">
           <b-navbar-item href="#">
-              Home
+              About
           </b-navbar-item>
           <b-navbar-item href="#">
-              Documentationf
+              Contact
           </b-navbar-item>
-          <b-navbar-dropdown label="Info">
-              <b-navbar-item href="#">
-                  About
-              </b-navbar-item>
-              <b-navbar-item href="#">
-                  Contact
-              </b-navbar-item>
-          </b-navbar-dropdown>
+        </b-navbar-dropdown>
       </template>
       <template #end>
         <b-navbar-item tag="div">

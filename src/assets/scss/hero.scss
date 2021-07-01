@@ -1,0 +1,17 @@
+.hero {
+    &-body {
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+    &-text {
+        max-width: 400px;
+        margin-bottom: 24px;
+        padding-right: 50px;
+    }
+    &-img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
