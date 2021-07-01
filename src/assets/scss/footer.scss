@@ -1,0 +1,13 @@
+.footer {
+    background-color: #edf0f8;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px;
+    &-icon {
+        padding: 0 4px;
+    }
+    &-link {
+        color: #1656ff;
+    }
+}
