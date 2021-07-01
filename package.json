@@ -7,6 +7,9 @@
     "build": "gridsome build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
     "buefy": "^0.9.8",
     "gridsome": "^0.7.0",
     "lottie-vuejs": "^0.4.0",
